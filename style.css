@@ -206,6 +206,50 @@ nav li a:hover {
   transform: scale(110%);
 }
 
+@media (max-width: 1000px) {
+  nav {
+    position: fixed;
+    top: 20px;
+    right: 80px;
+    padding: 0.8rem;
+    width: 80%;
+  }
+  img {
+    width: 100%;
+    border-radius: 1rem;
+    height: 15rem;
+  }
+  .desc sub {
+    text-align: center;
+  }
+  .title-list .title {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  .content {
+    width: 100%;
+  }
+  .content h3, p, li, .headline {
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  nav {
+    position: fixed;
+    top: 20px;
+    right: 55px;
+    padding: 0.3rem;
+    width: 80%;
+  }
+  img {
+    width: 100%;
+    border-radius: 1rem;
+    height: 9rem;
+  }
+  footer {
+    padding: 1rem;
+  }
+}
 @media (max-width: 600px) {
   header .logo {
     display: none;
@@ -229,5 +273,54 @@ nav li a:hover {
   img {
     width: 100%;
     border-radius: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  h1, h2, h3, .headline {
+    font-size: 20px;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  nav {
+    position: fixed;
+    top: 20px;
+    right: 40px;
+    padding: 0.8rem 0.5rem;
+    width: 80%;
+  }
+  nav .container {
+    width: 100%;
+  }
+  nav .container li a {
+    font-size: 12px;
+  }
+  img {
+    width: 100%;
+    border-radius: 1rem;
+    height: 8rem;
+  }
+  .content {
+    margin: 1rem 0;
+  }
+  .content p {
+    padding: 1rem 0;
+    text-align: center;
+  }
+  footer {
+    padding: 1rem;
+    background-color: #f5f4f0;
+  }
+  footer .desc {
+    text-align: center;
+    color: #1b1b1b;
+  }
+  footer .credits {
+    margin-top: 1rem;
+    background-color: #1b1b1b;
+    padding: 0.7rem;
+    border-radius: 1rem;
+  }
+  footer .credits {
+    font-size: 16px !important;
   }
 }/*# sourceMappingURL=style.css.map */
