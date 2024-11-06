@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+h1, h2, h3, .headline {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+p {
+  font-style: normal;
+}
+
+sub {
+  font-style: italic;
+}
+
+p, sub, .headline {
+  font-size: 16px;
+}
+
+.headline {
+  text-transform: uppercase;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f4f0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: 350px;
+  border-radius: 1rem;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container > .headline {
+  color: #e1624f;
+  margin-top: 1rem;
+}
+
+.title-list .title .headline {
+  color: #e1624f;
+}
+
+.title-list {
+  margin-bottom: 2rem;
+}
+
+.container h1 {
+  margin: 1rem 0;
+}
+
+.desc sub {
+  text-align: center;
+}
+
+.division {
+  height: 1px;
+  background-color: #d9d9d9;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.card-travel {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.content p {
+  padding: 1rem 0;
+}
+
+.content li {
+  margin: 1rem 0;
+}
+
+.content li .headline {
+  display: inline;
+}
+
+.historia {
+  color: #0c51a7;
+}
+
+.casais {
+  color: #591b98;
+}
+
+.familia {
+  color: #e5245e;
+}
+
+.orcamento {
+  color: #e95e10;
+}
+
+footer {
+  background-color: #1b1b1b;
+  padding: 2rem;
+  border-radius: 2rem 2rem 0 0;
+}
+
+footer .desc {
+  text-align: justify;
+  color: #f5f4f0;
+}
+
+footer .credits {
+  text-align: center;
+  color: #f5f4f0;
+  margin-top: 1rem;
+}
+
+footer .credits a {
+  text-decoration: none;
+  color: #591b98;
+  transition: 0.3s;
+}
+
+footer .credits a:hover {
+  color: #6f21be;
+  text-shadow: 0 0 10px #591b98;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding: 1rem 1rem;
+  border-radius: 2rem;
+  background-color: #4a4a4a;
+}
+
+nav .container {
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 2rem;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+nav li a:hover {
+  color: #fff;
+  transform: scale(110%);
+}/*# sourceMappingURL=style.css.map */
