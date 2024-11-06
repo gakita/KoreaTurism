@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 h1, h2, h3, .headline {
   font-weight: bold;
 }
@@ -127,6 +133,7 @@ footer {
   background-color: #1b1b1b;
   padding: 2rem;
   border-radius: 2rem 2rem 0 0;
+  bottom: 0;
 }
 
 footer .desc {
@@ -159,6 +166,9 @@ header {
 }
 
 nav {
+  position: fixed;
+  top: 3%;
+  right: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
