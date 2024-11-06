@@ -49,7 +49,7 @@ Design responsivo básico para visualização em diferentes tamanhos de tela.
 
 ## 🔧 Instalação e Execução
 Não é necessário realizar nenhuma instalação para visualizar este projeto. Basta seguir o link do GitHub Pages para abrir o site diretamente no navegador:
-[KoreaTursim](https://github.com/gakita)
+[KoreaTursim](https://gakita.github.io/KoreaTurism/)
 
 ## 📌 Créditos
 Este projeto foi desenvolvido com base no conteúdo e ensinamentos disponibilizados pela [Rocketseat](https://app.rocketseat.com.br/?type=ALL) no curso Fullstack Nível 3.
