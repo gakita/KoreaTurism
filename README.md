@@ -13,7 +13,9 @@ O **KoreaTurism** foi criado com o propósito de praticar e colocar em prática 
 ## 📸 Demonstração
 
 > **Screenshots do Projeto**  
-> (Insira capturas de tela das principais seções do site para ilustrar a aparência e estrutura visual.)
+> ![image](https://github.com/user-attachments/assets/6c2c0783-e16f-479e-a1bf-02057d47a4c9)
+> ![image](https://github.com/user-attachments/assets/86103709-cc2f-4a17-8f04-06d71e408ddf)
+
 
 ---
 
