@@ -37,7 +37,7 @@ Abaixo está a estrutura básica de pastas e arquivos deste projeto:
 │   ├── index.html  # Página inicial
 │   ├── style.css   # Arquivo de estilos principais
 └── README.md       # Documentação do projeto
-
+```
 📖 Funcionalidades
 Este é um site estático e, portanto, não possui funcionalidades interativas. No entanto, ele apresenta as seguintes características visuais:
 
