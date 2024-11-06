@@ -35,9 +35,8 @@ Abaixo está a estrutura básica de pastas e arquivos deste projeto:
 ```plaintext
 .
 ├── assets          # Imagens e outros arquivos estáticos
-├── src             # Código-fonte principal do projeto
-│   ├── index.html  # Página inicial
-│   ├── style.css   # Arquivo de estilos principais
+├── index.html  # Página inicial
+├── style.css   # Arquivo de estilos principais
 └── README.md       # Documentação do projeto
 ```
 ## 📖 Funcionalidades
